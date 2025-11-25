@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the following paper when using this code:"
+title: "Comparative transport characteristics of Ti₃C₂O₂, Sc₃C₂F₂ and Zr₃C₂O₂ MXenes under bias and temperature variations"
+authors:
+  - given-names: Omid
+    family-names: Soltani
+    email: "omid.soltan@hotmail.com"
+    affiliation: "Department of Condensed Matter Physics, Alzahra University"
+  - given-names: Mohammad Reza
+    family-names: Jafari
+    email: "mo.jafari@alzahra.ac.ir"
+    affiliation: "Department of Condensed Matter Physics, Alzahra University"
+  - given-names: Aliasghar
+    family-names: Shokri
+    email: "aashokri@alzahra.ac.ir"
+    affiliation: "Department of Theoretical and Nano Physics, Alzahra University"
+repository-code: "https://github.com/omidsoltani1369/cmse-paper-MXene"
+license: MIT
+version: 1.0.0
+date-released: 2024-01-01
