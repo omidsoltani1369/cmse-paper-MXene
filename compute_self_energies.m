@@ -1,3 +1,11 @@
+% Authors:
+% - Omid Soltani (omid.soltan@hotmail.com)
+% - Mohammad Reza Jafari (mo.jafari@alzahra.ac.ir)
+% - Aliasghar Shokri (aashokri@alzahra.ac.ir)
+% 
+% Alzahra University, Tehran, Iran
+% Paper: Comparative transport characteristics of MXenes
+
 function [Sigma_L_list, Sigma_R_list] = compute_self_energies(H0L, H0R, V, HLD, HDR, E_list, Vbias)
     eta = 1e-5;       
     max_iter = 200; 
@@ -29,3 +37,4 @@ function [Sigma_L_list, Sigma_R_list] = compute_self_energies(H0L, H0R, V, HLD, 
         Sigma_R_list{idx} = HDR * gR * HDR'; 
     end
 end
+
