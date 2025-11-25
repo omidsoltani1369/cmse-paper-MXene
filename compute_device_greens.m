@@ -1,3 +1,11 @@
+% Authors:
+% - Omid Soltani (omid.soltan@hotmail.com)
+% - Mohammad Reza Jafari (mo.jafari@alzahra.ac.ir)
+% - Aliasghar Shokri (aashokri@alzahra.ac.ir)
+% 
+% Alzahra University, Tehran, Iran
+% Paper: Comparative transport characteristics of MXenes
+
 function G_D_list = compute_device_greens(H_D, Sigma_L_list, Sigma_R_list, E_list, eta)
     N = length(E_list);
     dim = size(H_D,1);
@@ -36,4 +44,5 @@ function G_D_list = compute_device_greens(H_D, Sigma_L_list, Sigma_R_list, E_lis
             fprintf('Completed %d/%d energies\n', idx, N);
         end
     end
+
 end
