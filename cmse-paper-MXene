@@ -1,0 +1,22 @@
+# MATLAB files
+*.m~
+*.asv
+*.autosave
+*.backup
+
+# Compiled files
+*.mex*
+*.p
+*.dll
+
+# Data files (if large, consider Git LFS)
+# *.mat
+# *.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
